@@ -19,7 +19,7 @@ public class Walking2 : MonoBehaviour
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
         }
-        turner = Input.GetAxis("mouse X")* sensitivity;
+        turner = Input.GetAxis("Mouse X")* sensitivity;
         looker = -Input.GetAxis("Mouse Y") * sensitivity;
         if (turner != 0)
         {
